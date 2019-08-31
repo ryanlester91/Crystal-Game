@@ -57,7 +57,7 @@
   $("#crystal1").click(function() {
     userScore = userScore + crystalOne; // adds value of crystalOne to userScore
     console.log("User Score: " + userScore);
-    $("#user-score").text("User Score: " + userScore);
+    $("#user-score").text(userScore);
       if (userScore === goalScore) {
         winGame();
       } else if (userScore > goalScore) {
@@ -69,7 +69,7 @@
   $("#crystal2").click(function() {
     userScore = userScore + crystalTwo; // adds value of crystalTwo to userScore
     console.log("User Score: " + userScore);
-      $("#user-score").text("User Score: " + userScore);
+      $("#user-score").text(userScore);
       if (userScore === goalScore) {
         winGame();
       } else if (userScore > goalScore) {
@@ -81,7 +81,7 @@
   $("#crystal3").click(function() {
     userScore = userScore + crystalThree; // adds value of crystalThree to userScore
     console.log("User Score: " + userScore);
-      $("#user-score").text("User Score: " + userScore);
+      $("#user-score").text(userScore);
       if (userScore === goalScore) {
         winGame();
       } else if (userScore > goalScore) {
@@ -93,7 +93,7 @@
   $("#crystal4").click(function() {
     userScore = userScore + crystalFour; // adds value of crystalFour to userScore
     console.log("User Score: " + userScore);
-    $("#user-score").text("User Score: " + userScore);
+    $("#user-score").text(userScore);
       if (userScore === goalScore) {
         winGame();
       } else if (userScore > goalScore) {
