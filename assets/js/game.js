@@ -13,7 +13,7 @@
 
     $("#goal").text(goalScore);
     console.log(goalScore);
-    $("#user-score").text(userScore);
+    $("#user-score").html(userScore);
     console.log(userScore);
 
     console.log(crystalOne);
