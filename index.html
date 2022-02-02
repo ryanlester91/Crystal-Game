@@ -3,7 +3,8 @@
 <head>
     <meta char = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Unit 4 Game- Crystals Collector</title>
+    <title>Crystals Collector</title>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" id="bootstrap-css">-->
     <!--jQuery link right here-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!--stylesheets link rels-->
@@ -20,7 +21,8 @@ body {
 
 #title {
     color: white;
-    padding: 5px;
+    background-color: plum;
+    padding: 10px;
     margin-left: 20px;
     font-family: 'Arvo', serif;
     font-size: 36px;
@@ -30,6 +32,7 @@ body {
 
 #instructions {
     border: 1px solid black;
+    font-weight: bold;
     margin-left: 20px;
     width: 500px;
     background-color: #ff9999;
@@ -135,36 +138,35 @@ body {
             </div>
         
         </div>
-    <div id= "goal"></div><br>
-    <div id= "counters">
-        <strong>Wins: </strong><span id="wins"></span><br>
-        <strong>Losses: </strong><span id="losses"></span><br>
-        <div id = "counterTwo">
-            <strong>User Score: </strong><span id="#user-score"></span>
-    </div>
 
-    <div class= "crystals">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="crystal">
-                    <input type="image" class="btn" id="crystal1" src="assets/images/amethyst-crystals.jpg">
-                <div class="crystal">
-                    <input type="image" class="btn" id="crystal2" src="">
-                <div class="crystal">
-                    <input type="image" class="btn" id="crystal3" src="">
-                <div class="crystal">
-                    <input type="image" class="btn" id="crystal4" src="">
-                    
+        <div id= "counters">
+            <strong>Wins: </strong><span id="wins"></span><br>
+            <strong>Losses: </strong><span id="losses"></span><br>
+            <div id = "counterTwo">
+                <strong>User Score: </strong><span id="#user-score"></span>
+        </div>
+        
+
+        <div class= "crystals">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="crystal">
+                        <input type="image" class="btn" id="crystal1" src="assets/images/amethyst-crystals.jpg">
+                    <div class="crystal">
+                        <input type="image" class="btn" id="crystal2" src="">
+                    <div class="crystal">
+                        <input type="image" class="btn" id="crystal3" src="">
+                    <div class="crystal">
+                        <input type="image" class="btn" id="crystal4" src="">
+                        
+                </div>
             </div>
         </div>
     </div>
-</div>
-
+    <br>
+    <div id= "goal"></div>
 
     
-
-        
-
 <script type= "text/javascript" src="assets/js/game.js"></script>
 
 </body>
